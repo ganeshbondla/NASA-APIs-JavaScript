@@ -6,7 +6,7 @@ async function GetListOfNasaData()
     try
     {
 
-        let response = await fetch("https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=a2SFXsRSxfKdXxQQ4ybu1pJhJ96CFlMdsfzR9P2i");
+        let response = await fetch("https://api.nasa.gov/neo/rest/v1/feed?start_date=2015-09-07&end_date=2015-09-08&api_key=<your nasa api-key here>");
 
         let data = await response.text();
 
@@ -49,7 +49,7 @@ async function FindDetailsOfSingleObject(objId)
 
     try
     {
-        let singleObj = await fetch("http://www.neowsapp.com/rest/v1/neo/" + objId + "?api_key=a2SFXsRSxfKdXxQQ4ybu1pJhJ96CFlMdsfzR9P2i");
+        let singleObj = await fetch("http://www.neowsapp.com/rest/v1/neo/" + objId + "?api_key=<your nasa api-key here>");
 
         let singleObjectResponse = await singleObj.json();
 
