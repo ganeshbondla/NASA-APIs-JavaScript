@@ -1,6 +1,6 @@
 # NASA  APIs To Get NeoWs (Near-Earth Object Web Service) In JavaScript
 
-Developed in HTML and BS4 and JavaScript
+Developed in HTML,BS4(Bootstrap 4) and JavaScript
 
 Using JavaScript Asynchronous functions calling NASA APIs to get earth near objects and showing response JSON data in bs4 tables.
 
